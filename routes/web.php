@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware'=>'auth'], function(){
+  Route::get('book/create', 'BooksController@add');
+  Route::post('book/create','BooksController@create');
+}
