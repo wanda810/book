@@ -10882,3 +10882,43 @@ a.text-dark:focus {
   }
 }
 
+.background {
+  background: url(/images/backgroundimage.png?fb7ab6ddb0e7da938349d4738bbf423b) center center/cover no-repeat;
+  background-repeat: no-repeat;
+  width: 760px;
+  height: 760px;
+}
+
+#mode-users #page * {
+  box-sizing: border-box;
+}
+
+.shelf-wrapper {
+  background-color: #E8B572;
+}
+
+.shelf-wrapper {
+  width: 100%;
+  background-image: url(/images/maple_left.png?07f407dc63def9702598172349129140), url(/images/maple_right.png?400e915621210a7082c6cf2fbe490d56);
+  background-repeat: repeat-y, repeat-y;
+  background-position: top left, top right;
+  background-size: 39px 225px, 39px 225px;
+}
+
+#mode-users #page * {
+  box-sizing: border-box;
+}
+
+#shelf.shelf-front-area .shelf-wrapper .shelf-area {
+  min-height: 706px;
+}
+
+#shelf.shelf-front-area .shelf-wrapper .shelf-area {
+  margin: 0 39px;
+  padding: 30px 0 0;
+  background-image: url(/img/shelf/maple/maple_shadow_left.png), url(/img/shelf/maple/maple_shadow_right.png), url(/img/shelf/maple/maple_center.png);
+  background-repeat: repeat-y, repeat-y, repeat;
+  background-position: top left, top right, top left;
+  background-size: 16px 225px, 16px 225px, 500px 225px;
+}
+

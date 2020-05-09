@@ -38,4 +38,16 @@ class BooksController extends Controller
       return redirect('books/create');
     }
 
+    public function index()
+    {
+      $books = Book::all();
+
+      return view('books.index', ['books' => $books]);
+    }
+
+    public function show(Request $request)
+    {
+      $book = Book::find($request->id);
+      return view('books.show', ['book' => $book]);
+    }
 }
