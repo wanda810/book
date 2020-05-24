@@ -10916,7 +10916,7 @@ a.text-dark:focus {
 #shelf.shelf-front-area .shelf-wrapper .shelf-area {
   margin: 0 39px;
   padding: 30px 0 0;
-  background-image: url(/img/shelf/maple/maple_shadow_left.png), url(/img/shelf/maple/maple_shadow_right.png), url(/img/shelf/maple/maple_center.png);
+  background-image: url(/images/maple_shadow_left.png?7e3c8f5669da77a57675485626a10819), url(/images/maple_shadow_right.png?3e4572c7057a475059494536ef32e49f), url(/images/maple_center.png?c203a9789cb045325a1c8b1c4e62a011);
   background-repeat: repeat-y, repeat-y, repeat;
   background-position: top left, top right, top left;
   background-size: 16px 225px, 16px 225px, 500px 225px;
